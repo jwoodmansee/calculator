@@ -39,11 +39,13 @@ def operation(first_num, operand, second_num)
       when '*'
         answer = first_num * second_num
       else
-        puts 'Invaild operator'  
+        puts 'Invaild operator' 
+      end  
     end 
-  end
+  end  
+end
   result(first_num, operand, second_num, answer)
-end  
+  
 
 def result(first, operand, second, answer)
   puts "The Answer of #{first} #{operand} #{second} is #{answer}"
